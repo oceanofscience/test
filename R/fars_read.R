@@ -4,6 +4,8 @@
 #' Users do not have to see the result of this function, thus it is not exported.
 #' @param filename The name of the file to be called.
 #' @return This function returns a part of file as a printed table.
+#' @importFrom readr read_csv
+#' @importFrom dplyr tbl_df
 fars_read <- function(filename) {
         if(!file.exists(filename))
                 stop("file '", filename, "' does not exist")
