@@ -8,6 +8,9 @@ Users don't need to do this separately, thus this function is not exported.}
 \usage{
 fars_read_years(years)
 }
+\arguments{
+\item{year}{The year of the accidents recorded}
+}
 \value{
 This function returns month data of the accidents in the accident file
 }
