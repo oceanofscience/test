@@ -7,6 +7,9 @@ using datafile of a specific year, the number of accidents per month are present
 \usage{
 fars_summarize_years(years)
 }
+\arguments{
+\item{year}{The year of the accidents recorded}
+}
 \value{
 This function returns the number of accidents per month in the accident file
 }
