@@ -16,6 +16,3 @@ This function returns a part of file as a printed table.
 This reads the bz2 file to be used in other functions of this package.
 Users do not have to see the result of this function, thus it is not exported.
 }
-\examples{
-fars_read("accident_2014.csv.bz2")
-}
