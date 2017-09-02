@@ -4,8 +4,6 @@
 #' Users do not have to see the result of this function, thus it is not exported.
 #' @param filename The name of the file to be called.
 #' @return This function returns a part of file as a printed table.
-#' @examples
-#' fars_read("accident_2014.csv.bz2")
 fars_read <- function(filename) {
         if(!file.exists(filename))
                 stop("file '", filename, "' does not exist")
