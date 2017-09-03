@@ -5,6 +5,7 @@
 #'
 #' @param years The year of the accidents recorded
 #' @param year The year used inside of function
+#' @param MONTH Parameter from dataset
 #' @inheritParams make_filename
 #' @return This function returns month data of the accidents in the accident file
 #' @importFrom dplyr mutate select
@@ -21,4 +22,5 @@ fars_read_years <- function(years) {
                 })
         })
 }
+
 
