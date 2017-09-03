@@ -1,7 +1,7 @@
 #' Summary
 #' using datafile of a specific year, the number of accidents per month are presented.
 #'
-#' @param year The year of the accidents recorded
+#' @param years The year of the accidents recorded
 #' @param year From another function
 #' @param MONTH From another function
 #' @inheritParams fars_read_years
