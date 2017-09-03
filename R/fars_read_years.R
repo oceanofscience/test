@@ -3,7 +3,8 @@
 #' This function harvests data from the file for summary or drawing maps.
 #' Users don't need to do this separately, thus this function is not exported.
 #'
-#' @param year The year of the accidents recorded
+#' @param years The year of the accidents recorded
+#' @param year The year used inside of function
 #' @inheritParams make_filename
 #' @return This function returns month data of the accidents in the accident file
 #' @importFrom dplyr mutate select
