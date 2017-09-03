@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: Dong-Seok Yim <yimds@catholic.ac.kr>
 Maintainer: Dong-Seok Yim <yimds@catholic.ac.kr>
 Description: These functions show yearly number of accidents in each state.
-suggests: dplyr, readr, tidyr, magrittr, maps, knitr
+Imports: dplyr, readr, tidyr, magrittr, maps, knitr
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
