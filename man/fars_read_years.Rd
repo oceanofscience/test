@@ -10,10 +10,6 @@ fars_read_years(years)
 }
 \arguments{
 \item{years}{The year of the accidents recorded}
-
-\item{year}{The year used inside of function}
-
-\item{MONTH}{Parameter from dataset}
 }
 \value{
 This function returns month data of the accidents in the accident file
