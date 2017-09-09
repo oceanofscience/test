@@ -4,8 +4,6 @@
 #' Users don't need to do this separately, thus this function is not exported.
 #'
 #' @param years The year of the accidents recorded
-#' @param year The year used inside of function
-#' @param MONTH Parameter from dataset
 #' @inheritParams make_filename
 #' @return This function returns month data of the accidents in the accident file
 #' @importFrom dplyr mutate select
@@ -14,8 +12,8 @@ fars_read_years <- function(years) {
                 file <- make_filename(year)
                 tryCatch({
                         dat <- fars_read(file)
-                        dplyr::mutate(dat, year = year) %>%
-                                dplyr::select(MONTH, year)
+                        dplyr::mutate_(~ dat, year = ~ year) %>%
+                                dplyr::select_(~ MONTH, ~ year)
                 }, error = function(e) {
                         warning("invalid year: ", year)
                         return(NULL)
