@@ -3,7 +3,7 @@
 week2job
 ========
 
-The goal of week2job is to submit a homework of coursera.
+The goal of week2job is to submit a 4th week homework of coursera.
 
 Installation
 ------------
