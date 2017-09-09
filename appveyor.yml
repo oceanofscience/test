@@ -44,5 +44,7 @@ artifacts:
   - path: '\*_*.zip'
     name: Bits
 
+environment:
+  _R_CHECK_FORCE_SUGGESTS_: false
 
 build: off
