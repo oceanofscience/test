@@ -45,6 +45,7 @@ artifacts:
     name: Bits
 
 environment:
-  _R_CHECK_FORCE_SUGGESTS_: false
+  global:
+   _R_CHECK_FORCE_SUGGESTS_: 0
 
 build: off
