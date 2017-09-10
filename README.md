@@ -14,4 +14,5 @@ You can install week2job from github with:
 # install.packages("devtools")
 devtools::install_github("oceanofscience/week2job")
 ```
+
 [![Travis-CI Build Status](https://travis-ci.org/oceanofscience/week2job.svg?branch=master)](https://travis-ci.org/oceanofscience/week2job)
